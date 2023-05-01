@@ -1,3 +1,20 @@
-1. Initialize repo.
->> git init
-2. Add files to stages
+1. Install 'GitHub Pull Requests and Issues'
+2. Login with your Github Account in Vs code.
+3. Open folder and initailize repo, you can also do it by using terminal by command >> git init.
+4. Create a new file, you can see the changes will be detected.
+5. To stage all the changes (ready to commit) you can click on + button, also you can use command >> git add .
+6. To commit you can click on tic button, also you can use the command >> git commit -a -m "initialized project"
+-a means all staged files, -m means message, (IMPORTANT: master branch is the local repository branch!!)
+Now you have to push it by using remote to github repository (remote is like a pipe line)
+7. Click on options (...) go to Remote, add new remote, add link to github repo 'https://github.com/creatuscode/webx.git', give name to remote as 'origin'
+8. Now push using cmd >> git push remotename branchname >> git push origin master
+
+
+- What is branch?
+- How we can use branch/branches?
+- How we create branch?
+- How to create & merge PR
+
+9. Create a new "parallel-version" branch on GitHub repo.
+10. Connect to your VS code >> git checkout newbranchname >> git checkout parallel-version 
+NOT WORKING? Use this cmd >> git checkout -b parallel-version instead.
